@@ -24,12 +24,10 @@ const Navigation = () => {
                 <a href="/contact">À propos</a>
                 </li>
             </ul>
-            <ul className="nav-instagram">
-                <li><a href="https://www.instagram.com/nebulabde/">Instagram</a></li>
-                <li><a href="https://www.instagram.com/nebulabde/">
-                    <img src={ImgInstagram} alt="Instagram Logo" />
-                </a></li>
-            </ul>
+            <a className="nav-instagram" href="https://www.instagram.com/nebulabde/">
+                Instagram
+                <img src={ImgInstagram} alt="Instagram Logo" />
+            </a>
         </nav>
     );
 }

@@ -50,7 +50,7 @@ h5 {
     line-height: 26px;
 }
 
-p {
+p, a {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
