@@ -1,0 +1,62 @@
+.next-event {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 2rem 10vw;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-black);
+    position: relative;
+}
+
+.next-event-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.next-event-content {
+    display: flex;
+    flex-direction: column;
+}
+.next-event-content h2 {
+    margin-bottom: 2rem;
+}
+.next-event-content p {
+    margin-bottom: 3rem;
+}
+
+.next-event-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+}
+
+
+.next-event-fusee {
+    position: absolute;
+    top: 0;
+    right: 5vw;
+    width: 20vw;
+    max-width: 250px;
+    transform: rotateY(180deg);
+}
+
+.next-event-plateform-astro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.next-event-plateform-big {
+    transform: rotateY(180deg);
+    position: relative;
+}
+.next-event-astro {
+    position: absolute;
+    bottom: 4rem;
+    left: -1rem;
+    transform: rotateY(180deg);
+}

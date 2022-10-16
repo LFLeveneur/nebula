@@ -1,0 +1,74 @@
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* DESKTOP */
+.nav-desktop,
+.nav-desktop .nav-menu,
+.nav-desktop .nav-instagram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-desktop {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    justify-content: space-between;
+    padding: 2rem 4.4rem;
+    width: 100%;
+}
+.nav-desktop .nav-menu {
+    gap: 4rem
+}
+.nav-desktop .nav-instagram {
+    gap: 1rem;
+}
+
+/* MOBILE */
+.nav-mobile,
+.nav-mobile .nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-mobile {
+    justify-content: center;
+    padding: 0.75rem 1.25rem;
+}
+
+.nav-mobile .nav-menu {
+    gap: 1.25rem;
+}
+
+.nav-mobile .nav-menu a {
+    position: relative;
+}
+
+.nav-mobile .nav-link {
+    display: none;
+}
+
+.nav-mobile .nav-link-active {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.nav-mobile a {
+    --color-icon: #000;
+}
+
+.nav-mobile a:hover {
+    --color-icon: #666666;
+}
+
+/* REMOVE */
+.nav-mobile {
+    display: none;
+}
